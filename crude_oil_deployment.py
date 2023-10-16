@@ -65,7 +65,6 @@ train_size = int(0.8 * len(X))
 X_train, X_test = X[:train_size], X[train_size:]
 y_train, y_test = y[:train_size], y[train_size:]
 
-pip install tensorflow
 
 import tensorflow as tf
 from tensorflow import keras
