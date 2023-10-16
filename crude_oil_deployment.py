@@ -121,11 +121,6 @@ pickle_out = open("lstm_model.pkl", mode = "wb")
 pickle.dump(model, pickle_out)
 pickle_out.close()
 
-pip install streamlit
-
-
-
-
 
 import streamlit as st
 import pandas as pd
